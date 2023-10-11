@@ -1,0 +1,467 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .vscode/c_cpp_properties.json
+#	new file:   .vscode/settings.json
+#	new file:   .vscode/tasks.json
+#	new file:   Basic.cpp
+#	new file:   Basic.exe
+#	new file:   Binary search/binarysearch.cpp
+#	new file:   Binary search/bitonic_array.cpp
+#	new file:   Binary search/bitonic_array.exe
+#	new file:   Binary search/consequtive_one.cpp
+#	new file:   Binary search/consequtive_one.exe
+#	new file:   Binary search/extras/basic.txt
+#	new file:   Binary search/k_points.cpp
+#	new file:   Binary search/k_points.exe
+#	new file:   Binary search/kth_sum.cpp
+#	new file:   Binary search/kth_sum.exe
+#	new file:   Binary search/painters_probelm.cpp
+#	new file:   Binary search/painters_probelm.exe
+#	new file:   Binary search/rotated_array.cpp
+#	new file:   Binary search/rotated_array.exe
+#	new file:   Binary search/tempCodeRunnerFile.cpp
+#	new file:   Binary search/tempCodeRunnerFile.exe
+#	new file:   Bit Manipulation/codeforces contest/Max_xor.cpp
+#	new file:   Bit Manipulation/codeforces contest/Max_xor.exe
+#	new file:   Bit Manipulation/codeforces contest/and0_big_sum.cpp
+#	new file:   Bit Manipulation/codeforces contest/and0_big_sum.exe
+#	new file:   Bit Manipulation/codeforces contest/apollo_vs_pan.cpp
+#	new file:   Bit Manipulation/codeforces contest/apollo_vs_pan.exe
+#	new file:   Bit Manipulation/codeforces contest/mocha_math.cpp
+#	new file:   Bit Manipulation/codeforces contest/mocha_math.exe
+#	new file:   Bit Manipulation/codeforces contest/palindrome_pairs.cpp
+#	new file:   Bit Manipulation/codeforces contest/palindrome_pairs.exe
+#	new file:   Bit Manipulation/codeforces contest/rock_lever.cpp
+#	new file:   Bit Manipulation/codeforces contest/rock_lever.exe
+#	new file:   Greedy/livesession2.cpp
+#	new file:   Greedy/livesession2.exe
+#	new file:   Greedy/missing_coin.cpp
+#	new file:   Greedy/missing_coin.exe
+#	new file:   Greedy/practice problems/dearrange.cpp
+#	new file:   Greedy/practice problems/dearrange.exe
+#	new file:   Greedy/practice problems/fibo_breakdown.cpp
+#	new file:   Greedy/practice problems/fibo_breakdown.exe
+#	new file:   Greedy/practice problems/min_movesxy.cpp
+#	new file:   Greedy/practice problems/min_movesxy.exe
+#	new file:   Greedy/practice problems/minimise_dot.cpp
+#	new file:   Greedy/practice problems/minimise_dot.exe
+#	new file:   Greedy/practice problems/substringremoval.cpp
+#	new file:   Greedy/practice problems/substringremoval.exe
+#	new file:   Greedy/reading material/max_rope.cpp
+#	new file:   Greedy/reading material/max_rope.exe
+#	new file:   Greedy/reading material/small_substr.cpp
+#	new file:   LL.cpp
+#	new file:   Two Pointers/3_sum.cpp
+#	new file:   Two Pointers/3_sum.exe
+#	new file:   Two Pointers/basic.txt
+#	new file:   Two Pointers/distinct_integers.cpp
+#	new file:   Two Pointers/distinct_integers.exe
+#	new file:   Two Pointers/distinctelement.cpp
+#	new file:   Two Pointers/distinctelement.exe
+#	new file:   Two Pointers/maxlengsub.cpp
+#	new file:   Two Pointers/maxlengsub.exe
+#	new file:   Two Pointers/mipenalty.cpp
+#	new file:   Two Pointers/mipenalty.exe
+#	new file:   Two Pointers/smallest_subarray.cpp
+#	new file:   Two Pointers/smallest_subarray.exe
+#	new file:   Two Pointers/sumlessthank.cpp
+#	new file:   Two Pointers/sumlessthank.exe
+#	new file:   Two Pointers/tempCodeRunnerFile.cpp
+#	new file:   app of stl/.vscode/c_cpp_properties.json
+#	new file:   app of stl/.vscode/settings.json
+#	new file:   app of stl/Extras/App1_5.cpp
+#	new file:   app of stl/Extras/App1_5.exe
+#	new file:   app of stl/Extras/application2/max_items.cpp
+#	new file:   app of stl/Extras/application2/max_items.exe
+#	new file:   app of stl/Extras/application3.cpp
+#	new file:   app of stl/Extras/application3.exe
+#	new file:   app of stl/Extras/application4.cpp
+#	new file:   app of stl/Extras/application4.exe
+#	new file:   app of stl/Extras/application4_5.cpp
+#	new file:   app of stl/Extras/binarysearch.exe
+#	new file:   app of stl/Some points.txt
+#	new file:   app of stl/Stl application prob/Maximum window
+#	new file:   app of stl/Stl application prob/buy_max_obj.cpp
+#	new file:   app of stl/Stl application prob/buy_max_obj.exe
+#	new file:   app of stl/Stl application prob/min_stack.cpp
+#	new file:   app of stl/Stl application prob/min_stack.exe
+#	new file:   app of stl/prac set 1/q1.cpp
+#	new file:   app of stl/prac set 1/q1.exe
+#	new file:   app of stl/prac set 1/q2.cpp
+#	new file:   app of stl/prac set 1/q2.exe
+#	new file:   app of stl/prac set 1/q3.cpp
+#	new file:   app of stl/prac set 1/q3.exe
+#	new file:   app of stl/prac set 1/q4.cpp
+#	new file:   app of stl/prac set 1/q4.exe
+#	new file:   app of stl/prac set 1/q5.cpp
+#	new file:   app of stl/prac set 1/q5.exe
+#	new file:   app of stl/prac set 1/tempCodeRunnerFile.cpp
+#	new file:   app of stl/prac set 1/tempCodeRunnerFile.exe
+#	new file:   app of stl/prac set 2/bracket.cpp
+#	new file:   app of stl/prac set 2/bracket.exe
+#	new file:   app of stl/prac set 2/q1.cpp
+#	new file:   app of stl/prac set 2/q1.exe
+#	new file:   app of stl/prac set 2/q2.exe
+#	new file:   app of stl/prac set 2/q3.cpp
+#	new file:   app of stl/prac set 2/q3.exe
+#	new file:   app of stl/prac set 2/q4.cpp
+#	new file:   app of stl/prac set 2/q4.exe
+#	new file:   app of stl/prac set 2/q5.cpp
+#	new file:   app of stl/prac set 2/q5.exe
+#	new file:   app of stl/prac set 2/tempCodeRunnerFile.cpp
+#	new file:   app of stl/prac set 2/tempCodeRunnerFile.exe
+#	new file:   app of stl/prac set 2/valid parenthesis.cpp
+#	new file:   app of stl/prac set 3/MaxElement.cpp
+#	new file:   app of stl/prac set 3/MinElementalt.cpp
+#	new file:   app of stl/prac set 3/MinElementalt.exe
+#	new file:   app of stl/prac set 3/q1.cpp
+#	new file:   app of stl/prac set 3/q1.exe
+#	new file:   app of stl/prac set 3/q2.exe
+#	new file:   app of stl/prac set 3/q3.cpp
+#	new file:   app of stl/prac set 3/q3.exe
+#	new file:   app of stl/prac set 3/q4.cpp
+#	new file:   app of stl/prac set 3/q4.exe
+#	new file:   app of stl/prac set 3/q5.cpp
+#	new file:   app of stl/prac set 3/q5.exe
+#	new file:   app of stl/prac set 4/map.cpp
+#	new file:   app of stl/prac set 4/map.exe
+#	new file:   app of stl/prac set 4/multiset.cpp
+#	new file:   app of stl/prac set 4/multiset.exe
+#	new file:   app of stl/prac set 4/registration.cpp
+#	new file:   app of stl/prac set 4/registration.exe
+#	new file:   app of stl/prac set 4/student.cpp
+#	new file:   app of stl/prac set 4/student_wrongapproach.cpp
+#	new file:   app of stl/prac set 4/tempCodeRunnerFile.cpp
+#	new file:   app of stl/prac set 5/pq.cpp
+#	new file:   app of stl/prac set 5/pq.exe
+#	new file:   app of stl/t.py
+#	new file:   az revision list prac/STL ideas/alice_and_books.cpp
+#	new file:   az revision list prac/STL ideas/alice_and_books.exe
+#	new file:   az revision list prac/STL ideas/buy_max_objects.cpp
+#	new file:   az revision list prac/STL ideas/buy_max_objects.exe
+#	new file:   az revision list prac/STL ideas/height_of_soldiers.cpp
+#	new file:   az revision list prac/STL ideas/height_of_soldiers.exe
+#	new file:   az revision list prac/STL ideas/largest_rectangle.cpp
+#	new file:   az revision list prac/STL ideas/largest_rectangle.exe
+#	new file:   az revision list prac/STL ideas/max_in_window.cpp
+#	new file:   az revision list prac/STL ideas/max_in_window.exe
+#	new file:   az revision list prac/STL ideas/min_stack.cpp
+#	new file:   az revision list prac/STL ideas/min_stack.exe
+#	new file:   az revision list prac/STL ideas/rain_water.cpp
+#	new file:   az revision list prac/STL ideas/rain_water.exe
+#	new file:   az revision list prac/STL ideas/redbuild_original_array.cpp
+#	new file:   az revision list prac/STL ideas/redbuild_original_array.exe
+#	new file:   az revision list prac/STL ideas/super_minimum_sum.cpp
+#	new file:   az revision list prac/STL ideas/super_minimum_sum.exe
+#	new file:   az revision list prac/STL ideas/support_queries_2.cpp
+#	new file:   az revision list prac/STL ideas/support_queries_2.exe
+#	new file:   az revision list prac/STL ideas/tempCodeRunnerFile.cpp
+#	new file:   az revision list prac/basic mixed/common_difference.cpp
+#	new file:   az revision list prac/basic mixed/common_difference.exe
+#	new file:   az revision list prac/basic mixed/convert_base_number.cpp
+#	new file:   az revision list prac/basic mixed/convert_base_number.exe
+#	new file:   az revision list prac/basic mixed/count_the_pairs.cpp
+#	new file:   az revision list prac/basic mixed/count_the_pairs.exe
+#	new file:   az revision list prac/basic mixed/distinct_char.cpp
+#	new file:   az revision list prac/basic mixed/distinct_char.exe
+#	new file:   az revision list prac/basic mixed/four_values.cpp
+#	new file:   az revision list prac/basic mixed/good_pairs.cpp
+#	new file:   az revision list prac/basic mixed/good_pairs.exe
+#	new file:   az revision list prac/basic mixed/infix_postfix.cpp
+#	new file:   az revision list prac/basic mixed/infix_postfix.exe
+#	new file:   az revision list prac/basic mixed/is_prime.cpp
+#	new file:   az revision list prac/basic mixed/is_prime.exe
+#	new file:   az revision list prac/basic mixed/longest_distinct_sub.cpp
+#	new file:   az revision list prac/basic mixed/longest_distinct_sub.exe
+#	new file:   az revision list prac/basic mixed/max_area.cpp
+#	new file:   az revision list prac/basic mixed/max_area.exe
+#	new file:   az revision list prac/basic mixed/max_customers.cpp
+#	new file:   az revision list prac/basic mixed/max_customers.exe
+#	new file:   az revision list prac/basic mixed/max_ineach_subarray.cpp
+#	new file:   az revision list prac/basic mixed/max_ineach_subarray.exe
+#	new file:   az revision list prac/basic mixed/mobile_notification.cpp
+#	new file:   az revision list prac/basic mixed/mobile_notification.exe
+#	new file:   az revision list prac/basic mixed/nearest_smaller.cpp
+#	new file:   az revision list prac/basic mixed/nearest_smaller.exe
+#	new file:   az revision list prac/basic mixed/number_of_divisors.cpp
+#	new file:   az revision list prac/basic mixed/number_of_divisors.exe
+#	new file:   az revision list prac/basic mixed/odd_one_out.cpp
+#	new file:   az revision list prac/basic mixed/odd_one_out.exe
+#	new file:   az revision list prac/basic mixed/perfect_sq_cube.cpp
+#	new file:   az revision list prac/basic mixed/perfect_sq_cube.exe
+#	new file:   az revision list prac/basic mixed/powers_of_two.cpp
+#	new file:   az revision list prac/basic mixed/powers_of_two.exe
+#	new file:   az revision list prac/basic mixed/queue_2_stack.cpp
+#	new file:   az revision list prac/basic mixed/queue_2_stack.exe
+#	new file:   az revision list prac/basic mixed/set_operations.cpp
+#	new file:   az revision list prac/basic mixed/set_operations.exe
+#	new file:   az revision list prac/basic mixed/set_queries.cpp
+#	new file:   az revision list prac/basic mixed/set_queries.exe
+#	new file:   az revision list prac/basic mixed/tempCodeRunnerFile.cpp
+#	new file:   az revision list prac/basic mixed/towers1.cpp
+#	new file:   az revision list prac/basic mixed/towers1.exe
+#	new file:   az revision list prac/basic mixed/valid_parenthesis.cpp
+#	new file:   az revision list prac/basic mixed/valid_parenthesis.exe
+#	new file:   az revision list prac/graphs/bellman_ford.cpp
+#	new file:   az revision list prac/graphs/bellman_ford.exe
+#	new file:   az revision list prac/graphs/burn_them_all.cpp
+#	new file:   az revision list prac/graphs/burn_them_all.exe
+#	new file:   az revision list prac/graphs/creating_teams.cpp
+#	new file:   az revision list prac/graphs/creating_teams.exe
+#	new file:   az revision list prac/graphs/disjoint_union.cpp
+#	new file:   az revision list prac/graphs/disjoint_union.exe
+#	new file:   az revision list prac/graphs/edge_reversal.cpp
+#	new file:   az revision list prac/graphs/edge_reversal.exe
+#	new file:   az revision list prac/graphs/graph_queries.cpp
+#	new file:   az revision list prac/graphs/graph_queries.exe
+#	new file:   az revision list prac/graphs/number_of_rooms.cpp
+#	new file:   az revision list prac/graphs/number_of_rooms.exe
+#	new file:   az revision list prac/graphs/one_edge.cpp
+#	new file:   az revision list prac/graphs/one_edge.exe
+#	new file:   az revision list prac/graphs/round_trip.cpp
+#	new file:   az revision list prac/graphs/round_trip.exe
+#	new file:   az revision list prac/graphs/round_trip_2.cpp
+#	new file:   az revision list prac/graphs/round_trip_2.exe
+#	new file:   az revision list prac/graphs/shortest_path_1.cpp
+#	new file:   az revision list prac/graphs/shortest_path_1.exe
+#	new file:   az revision list prac/graphs/shortest_path_2.cpp
+#	new file:   az revision list prac/graphs/shortest_path_2.exe
+#	new file:   az revision list prac/graphs/smallest_permutation.cpp
+#	new file:   az revision list prac/graphs/smallest_permutation.exe
+#	new file:   az revision list prac/graphs/tempCodeRunnerFile.cpp
+#	new file:   az revision list prac/graphs/tree_diameter_1.cpp
+#	new file:   az revision list prac/graphs/tree_diameter_1.exe
+#	new file:   az revision list prac/greedy/meet_at_point.cpp
+#	new file:   az revision list prac/greedy/meet_at_point.exe
+#	new file:   az revision list prac/greedy/min_operation_conv.cpp
+#	new file:   az revision list prac/greedy/min_operation_conv.exe
+#	new file:   bruteforce/android_unlock.cpp
+#	new file:   bruteforce/android_unlock.exe
+#	new file:   bruteforce/formulation/exploration/k_knights.cpp
+#	new file:   bruteforce/formulation/exploration/k_knights.exe
+#	new file:   bruteforce/formulation/formulation/division.cpp
+#	new file:   bruteforce/formulation/formulation/k_subset.cpp
+#	new file:   bruteforce/formulation/formulation/k_subset.exe
+#	new file:   bruteforce/formulation/formulation/n_queens.cpp
+#	new file:   bruteforce/formulation/formulation/n_queens.exe
+#	new file:   bruteforce/formulation/formulation/next_permutation.txt
+#	new file:   bruteforce/formulation/questions/all_perm.cpp
+#	new file:   bruteforce/formulation/questions/all_perm.exe
+#	new file:   bruteforce/formulation/questions/gen_paren1.cpp
+#	new file:   bruteforce/formulation/questions/gen_paren1.exe
+#	new file:   bruteforce/formulation/questions/k_perm1.cpp
+#	new file:   bruteforce/formulation/questions/k_perm1.exe
+#	new file:   bruteforce/formulation/questions/k_perm2.cpp
+#	new file:   bruteforce/formulation/questions/n_queens1.cpp
+#	new file:   bruteforce/formulation/questions/n_queens1.exe
+#	new file:   bruteforce/formulation/questions/ns_queen.cpp
+#	new file:   bruteforce/formulation/questions/ns_queen.exe
+#	new file:   bruteforce/sudoku.cpp
+#	new file:   bruteforce/sudoku.exe
+#	new file:   bruteforce/tempCodeRunnerFile.cpp
+#	new file:   dynamic programming dp/atcoder prblms/dpa_frog1.cpp
+#	new file:   dynamic programming dp/atcoder prblms/dpa_frog1.exe
+#	new file:   dynamic programming dp/atcoder prblms/dpb_frog2.cpp
+#	new file:   dynamic programming dp/atcoder prblms/dpb_frog2.exe
+#	new file:   dynamic programming dp/atcoder prblms/dpc_vacation.cpp
+#	new file:   dynamic programming dp/atcoder prblms/dpc_vacation.exe
+#	new file:   dynamic programming dp/atcoder prblms/dpd_knapsack.cpp
+#	new file:   dynamic programming dp/atcoder prblms/dpd_knapsack.exe
+#	new file:   dynamic programming dp/atcoder prblms/lcs.cpp
+#	new file:   dynamic programming dp/atcoder prblms/lcs.exe
+#	new file:   dynamic programming dp/coin_change_inf,cpp
+#	new file:   dynamic programming dp/dpexploration2.cpp
+#	new file:   dynamic programming dp/dpexploration3.cpp
+#	new file:   dynamic programming dp/dpexploration4.cpp
+#	new file:   dynamic programming dp/dpexploration4.exe
+#	new file:   dynamic programming dp/form2.cpp
+#	new file:   dynamic programming dp/form2.exe
+#	new file:   dynamic programming dp/form3.cpp
+#	new file:   dynamic programming dp/form3.exe
+#	new file:   dynamic programming dp/form4.cpp
+#	new file:   dynamic programming dp/form5.cpp
+#	new file:   dynamic programming dp/form5.exe
+#	new file:   dynamic programming dp/lis.cpp
+#	new file:   dynamic programming dp/lis.exe
+#	new file:   dynamic programming dp/live sessions/0_1knapsack.cpp
+#	new file:   dynamic programming dp/live sessions/0_1knapsack.exe
+#	new file:   dynamic programming dp/live sessions/fibonacci.cpp
+#	new file:   dynamic programming dp/live sessions/fibonacci.exe
+#	new file:   dynamic programming dp/live sessions/gridbased1.cpp
+#	new file:   dynamic programming dp/live sessions/gridbased2.cpp
+#	new file:   dynamic programming dp/live sessions/gridbased2.exe
+#	new file:   dynamic programming dp/live sessions/gridbased3.cpp
+#	new file:   dynamic programming dp/live sessions/livesession3.cpp
+#	new file:   dynamic programming dp/live sessions/maxscoreij.cpp
+#	new file:   dynamic programming dp/problem set 1/lcs.cpp
+#	new file:   dynamic programming dp/problem set 1/lcs.exe
+#	new file:   dynamic programming dp/problem set 1/maxpathsum.cpp
+#	new file:   dynamic programming dp/problem set 1/maxpathsum.exe
+#	new file:   dynamic programming dp/problem set 1/numberofpath1.cpp
+#	new file:   graphs/BFS/bfs.cpp
+#	new file:   graphs/BFS/bfs.exe
+#	new file:   graphs/BFS/bfscodingquest.cpp
+#	new file:   graphs/BFS/bfsexplicitg.cpp
+#	new file:   graphs/BFS/bfsexplicitg.exe
+#	new file:   graphs/BFS/bfsprac.cpp
+#	new file:   graphs/BFS/bfsprac.exe
+#	new file:   graphs/foundations/DFS.cpp
+#	new file:   graphs/foundations/DFS.exe
+#	new file:   graphs/foundations/cycledirected.cpp
+#	new file:   graphs/foundations/cycledirected.exe
+#	new file:   graphs/foundations/cycleprac.cpp
+#	new file:   graphs/foundations/cycleprac.exe
+#	new file:   graphs/foundations/tempCodeRunnerFile.cpp
+#	new file:   graphs/problems/graph_foundations/building_roads.cpp
+#	new file:   graphs/problems/graph_foundations/building_roads.exe
+#	new file:   graphs/problems/graph_foundations/number_of_rooms.cpp
+#	new file:   graphs/problems/graph_foundations/number_of_rooms.exe
+#	new file:   graphs/problems/graph_foundations/roundtrip.cpp
+#	new file:   graphs/problems/graph_foundations/roundtrip.exe
+#	new file:   graphs/problems/graph_foundations/tempCodeRunnerFile.cpp
+#	new file:   graphs/problems/shortest path/budget_travelling.cpp
+#	new file:   graphs/problems/shortest path/budget_travelling.exe
+#	new file:   graphs/problems/trees/center.cpp
+#	new file:   graphs/problems/trees/centroid.cpp
+#	new file:   graphs/problems/trees/centroid.exe
+#	new file:   graphs/problems/trees/complete_the_game.cpp
+#	new file:   graphs/problems/trees/complete_the_game.exe
+#	new file:   graphs/problems/trees/sum_of_distances.cpp
+#	new file:   graphs/problems/trees/sum_of_distances.exe
+#	new file:   graphs/problems/union find and mst/edge_removal.cpp
+#	new file:   graphs/problems/union find and mst/edge_removal.exe
+#	new file:   graphs/problems/union find and mst/min_edge_weight.cpp
+#	new file:   graphs/problems/union find and mst/min_edge_weight.exe
+#	new file:   graphs/problems/union find and mst/tempCodeRunnerFile.cpp
+#	new file:   graphs/shortest path/dijkastra.cpp
+#	new file:   graphs/shortest path/floyed_warshal.cpp
+#	new file:   graphs/topological ordering/label.cpp
+#	new file:   graphs/topological ordering/label.exe
+#	new file:   graphs/topological ordering/longestpath.cpp
+#	new file:   graphs/topological ordering/longestpath.exe
+#	new file:   graphs/topological ordering/topobfs.cpp
+#	new file:   graphs/topological ordering/topobfs.exe
+#	new file:   graphs/topological ordering/topodfs.cpp
+#	new file:   graphs/topological ordering/topodfs.exe
+#	new file:   graphs/trees/center_of_tree.cpp
+#	new file:   graphs/trees/center_of_tree.exe
+#	new file:   graphs/trees/dfs_tree.cpp
+#	new file:   graphs/trees/diameter_of_tree.cpp
+#	new file:   graphs/trees/diameter_of_tree.exe
+#	new file:   graphs/trees/min_absolute_ancestor.cpp
+#	new file:   graphs/trees/number_of_diameters.cpp
+#	new file:   graphs/trees/number_of_diameters.exe
+#	new file:   graphs/trees/tempCodeRunnerFile.cpp
+#	new file:   graphs/union find and mst/mst.cpp
+#	new file:   graphs/union find and mst/union_find.cpp
+#	new file:   interview bootcamp/binary Tree/traversals
+#	new file:   interview bootcamp/faq/nextpermutation.cpp
+#	new file:   interview bootcamp/faq/nextpermutation.exe
+#	new file:   interview bootcamp/faq/set 3/buy_and_sell_stock_1.cpp
+#	new file:   interview bootcamp/faq/set 3/buy_and_sell_stock_1.exe
+#	new file:   interview bootcamp/faq/set 3/buy_and_sell_stock_2.cpp
+#	new file:   interview bootcamp/faq/set 3/buy_and_sell_stock_2.exe
+#	new file:   interview bootcamp/faq/tempCodeRunnerFile.cpp
+#	new file:   interview bootcamp/live faq/boyre_moore_voting.cpp
+#	new file:   interview bootcamp/live faq/boyre_moore_voting.exe
+#	new file:   interview bootcamp/live faq/egg_drop.cpp
+#	new file:   interview bootcamp/live faq/egg_drop.exe
+#	new file:   interview bootcamp/live faq/next_greater.cpp
+#	new file:   interview bootcamp/live faq/segregation.cpp
+#	new file:   interview bootcamp/live faq/segregation.exe
+#	new file:   interview bootcamp/live faq/sort_0_1.cpp
+#	new file:   interview bootcamp/live faq/sort_0_1_2.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/anagrams.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/anagrams.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 1/binary_sum.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/binary_sum.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 1/closest_points.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/closest_points.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 1/decode_alphabet.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/decode_alphabet.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 1/excel_colum_title.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/excel_colum_title.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 1/excel_column_number.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/excel_column_number.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 1/mobile_phone.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/mobile_phone.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 1/two_sum.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 1/two_sum.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 2/array_product.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 2/array_product.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 2/median_sorted_array.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 2/median_sorted_array.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 2/merge_sorted_array.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 2/merge_sorted_array.exe
+#	new file:   interview bootcamp/practice problems/minimal/set 2/palindrome.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 2/sorted_array.cpp
+#	new file:   interview bootcamp/practice problems/minimal/set 2/sorted_array.exe
+#	new file:   jett sol.txt
+#	new file:   lc.txt
+#	new file:   mathematics/factorisation/basic_factorisation.cpp
+#	new file:   mathematics/factorisation/basic_factorisation.exe
+#	new file:   mathematics/factorisation/euler_phi_function.cpp
+#	new file:   mathematics/factorisation/fast_factorisation.cpp
+#	new file:   mathematics/factorisation/fast_factorisation.exe
+#	new file:   mathematics/factorisation/segmented_sieve.cpp
+#	new file:   mathematics/factorisation/segmented_sieve.exe
+#	new file:   mathematics/factorisation/seive_of_eratosthenes.exe
+#	new file:   mathematics/factorisation/sieve_of_eratosthenes.cpp
+#	new file:   mathematics/problems/euler_phi.cpp
+#	new file:   mean_median.cpp
+#	new file:   modulo math.txt
+#	new file:   palindrome.cpp
+#	new file:   pauspaul_template.cpp
+#	new file:   questions/applied learn cpp 2/q10.cpp
+#	new file:   questions/applied learn cpp 2/q10.exe
+#	new file:   questions/applied learn cpp 2/q6.cpp
+#	new file:   questions/applied learn cpp 2/q6.exe
+#	new file:   questions/applied learn cpp 2/q7.cpp
+#	new file:   questions/applied learn cpp 2/q7.exe
+#	new file:   questions/applied learn cpp 3/q11.cpp
+#	new file:   questions/applied learn cpp 3/q12.cpp
+#	new file:   questions/applied learn cpp 3/q12.exe
+#	new file:   questions/applied learn cpp 3/q14.cpp
+#	new file:   questions/applied learn cpp 3/q14.exe
+#	new file:   questions/applied learn cpp 3/q15.cpp
+#	new file:   questions/applied learn cpp 3/q15.exe
+#	new file:   questions/applied learn cpp 3/q15_solved.cpp
+#	new file:   questions/applied learn cpp 3/q15_solved.exe
+#	new file:   questions/applied learn cpp 3/tempCodeRunnerFile.cpp
+#	new file:   questions/applied learn cpp 3/tempCodeRunnerFile.exe
+#	new file:   questions/applied learn cpp/q1.cpp
+#	new file:   questions/applied learn cpp/q1.exe
+#	new file:   questions/applied learn cpp/q2.cpp
+#	new file:   questions/applied learn cpp/q2.exe
+#	new file:   questions/applied learn cpp/q3.cpp
+#	new file:   questions/applied learn cpp/q3.exe
+#	new file:   questions/applied learn cpp/q4.cpp
+#	new file:   questions/applied learn cpp/q4.exe
+#	new file:   questions/applied learn cpp/q5.cpp
+#	new file:   questions/applied learn cpp/q5.exe
+#	new file:   questions/applied learning 4/q16.cpp
+#	new file:   questions/applied learning 4/q16.exe
+#	new file:   questions/applied learning 4/q17.cpp
+#	new file:   questions/applied learning 4/q17.exe
+#	new file:   questions/applied learning 4/tempCodeRunnerFile.cpp
+#	new file:   questions/applied learning 4/tempCodeRunnerFile.exe
+#	new file:   randomcode.cpp
+#	new file:   randomcode.exe
+#	new file:   stls.txt
+#	new file:   string algorithms/is_substring.cpp
+#	new file:   string algorithms/is_substring.exe
+#	new file:   string algorithms/kmp.cpp
+#	new file:   string algorithms/kmp.exe
+#	new file:   tempelat.cpp
+#	new file:   trie/insert_delete.cpp
+#	new file:   trie/insert_delete.exe
+#	new file:   xyz.cpp
+#	new file:   xyz.exe
+#
